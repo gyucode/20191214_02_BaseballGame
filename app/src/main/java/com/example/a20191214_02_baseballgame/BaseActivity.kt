@@ -1,0 +1,11 @@
+package com.example.a20191214_02_baseballgame
+
+import androidx.appcompat.app.AppCompatActivity
+
+abstract class BaseActivity : AppCompatActivity() {
+
+    val mContext = this
+    abstract fun setupEvent()
+    abstract fun setValues()
+
+}
